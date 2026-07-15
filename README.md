@@ -20,5 +20,5 @@ Contributing
 I'd rather not deal with pull requests.  However your welcome to open a issue, 
 if there is something you think can be improved upon
 
-Liscense
-This project is Liscensed under the MIT Liscense
+License
+This project is Licensed under the MIT License
