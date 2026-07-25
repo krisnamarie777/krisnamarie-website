@@ -7,19 +7,38 @@
 </head>
 <body>
     <header id="site_header" class="site_header sticky">
-        <a href="index.html" class="header_link">Krisna Marie&mdash;Artist&amp;
-        Designer</a>
+        <h1 id="site-title"><a href="index.html" class="site_title_link">Krisna Marie</a></h1>
+        <nav id="main_nav" class="main_nav">
+        <!--place_toggle_here?-->
+            <ul class="main_nav_list">
+                <li class="main_nav_list_item"><a class="main_nav_link" href="index.html">Porfolio</a></li>
+                <li class="main_nav_list_item"><a class="main_nav_link" href="about.html">About</a></li>
+                <li class="main_nav_list_item"><a href="contact.html" class="main_nav_link">Contact</a></li>
+            </ul><!-- .main_nav_list -->
+        </nav>
     </header><!-- #site-header .sticky -->
-    <nav id="main_nav" class="main_nav">
-      <!--place_toggle_here?-->
-        <ul class="main_nav_list">
-            <li class="main_nav_list_item"><a class="main_nav_link" 
-            href="index.html">Porfolio</a></li>
-            <li class="main_nav_list_item"><a class="main_nav_link" 
-            href="about.html">About</a></li>
-            <li class="main_nav_list_item"><a href="contact.html" 
-            class="main_nav_link">Contact</a></li>
-         </ul><!-- .main_nav_list -->
-    </nav>
+    <main class="content">
+        <section id="intro" class="content_section">
+            <h2 class="content_section_heading">Hello I am Krisna,</h2>
+            <p class="section_intro">I am an artist &amp; designer who works with traditional and digital mediums.</p>
+        </section><!-- #intro .content_section -->
+        <section id="portfolio" class="portfolio content_section">
+            <header class="section_header">
+                <h2 class="content_section_heading">Portfolio</h2>
+            </header>
+            <article id="portfolio_cover_one" class="portfolio_cover">
+                <header class="article_header">
+                    <h3 class="article_heading"><a href="portfolio_item_one.html" class="portfolio_item_link">Title of Piece</a></h3>
+                </header>
+                <figure class="portfolio_cover_figure">
+                    <!-- <a class="portfolio_item_link"><img alt="image description" id="portfolio_cover_one_img" class="portfolio_cover_img"></a> -->
+                     <figcaption>Caption</figcaption>
+                </figure>
+                <p class="portfolio_item_description"></p>
+            </article>
+        </section><!-- #portfolio .content-section -->
+    </main><!-- .content -->
+
+
 </body>
 </html>
