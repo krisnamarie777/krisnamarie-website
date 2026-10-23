@@ -3,41 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krisna Marie&mdash;Artist&amp;Designer</title>
+    <title>Krisna Marie&mdash;Artist &amp; Designer</title>
 </head>
 <body>
     <header id="site_header" class="site_header sticky">
-        <h1 id="site-title"><a href="index.html" class="site_title_link">Krisna Marie</a></h1>
+        <h1 id="site-title"><a href="index.html" 
+            class="site_title_link">Krisna Marie</a></h1>
         <nav id="main_nav" class="main_nav">
         <!--place_toggle_here?-->
             <ul class="main_nav_list">
-                <li class="main_nav_list_item"><a class="main_nav_link" href="index.html">Porfolio</a></li>
-                <li class="main_nav_list_item"><a class="main_nav_link" href="about.html">About</a></li>
-                <li class="main_nav_list_item"><a href="contact.html" class="main_nav_link">Contact</a></li>
+                <li class="main_nav_list_item"><a class="main_nav_link" 
+                    href="#bio">Bio</a></li>
+                <li class="main_nav_list_item"><a class="main_nav_link" 
+                    href="#work">Work</a></li>
+                <li class="main_nav_list_item"><a href="#contact" 
+                    class="main_nav_link">Contact</a></li>
+                <li class="main-nav-list-item"><a href="#updates" 
+                    class="main-nav-link">Updates</a></li>
             </ul><!-- .main_nav_list -->
         </nav>
     </header><!-- #site-header .sticky -->
-    <main class="content">
-        <section id="intro" class="content_section">
-            <h2 class="content_section_heading">Hello I am Krisna,</h2>
-            <p class="section_intro">I am an artist &amp; designer who works with traditional and digital mediums.</p>
-        </section><!-- #intro .content_section -->
-        <section id="portfolio" class="portfolio content_section">
-            <header class="section_header">
-                <h2 class="content_section_heading">Portfolio</h2>
-            </header>
-            <article id="portfolio_cover_one" class="portfolio_cover">
-                <header class="article_header">
-                    <h3 class="article_heading"><a href="portfolio_item_one.html" class="portfolio_item_link">Title of Piece</a></h3>
-                </header>
-                <figure class="portfolio_cover_figure">
-                    <!-- <a class="portfolio_item_link"><img alt="image description" id="portfolio_cover_one_img" class="portfolio_cover_img"></a> -->
-                     <figcaption>Caption</figcaption>
-                </figure>
-                <p class="portfolio_item_description"></p>
-            </article>
-        </section><!-- #portfolio .content-section -->
-    </main><!-- .content -->
+    <main>
+        <section id="bio">
+            <h2>Hello, I am Krisna</h1>
+            <p>I am an artist and designer from 
+                Bellingham, Washington.  I enjoy recording nature and love 
+                color.  I use both traditional and digital mediums in my 
+                art.</p>
+        </section><!-- #bio-->
+        <section id="work">
+            <h2>Samples of My Work</h2>
+       <!-- Slideshow container -->
+        <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <figure class="slideFigure fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/km_colored_pencil-floral.jpg">
+            <figcaption class="gi">Colored pencil on dark paper
+            </figcaption>
+        </figure>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        </section>
+
+    </main>
 
 
 </body>

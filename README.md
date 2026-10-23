@@ -1,17 +1,18 @@
 Personal Website for Krisna Marie
 
-A simple one page website with some of my work, and a brief bio.
+A simple one page website with some work, a brief bio, and a sign up for a
+newsletter with page updates.
 
 
 Features
 
--Respomnsive Design
+-Responsive Design
 -Responsive Menu
 -Semantic Markup
 
 
 Technologies Used
--HTmL5
+-HTML5
 -CSS3
 -Javascript (Vanilla)
 
